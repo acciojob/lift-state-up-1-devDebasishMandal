@@ -6,17 +6,18 @@ const Child= ({showModal,setShowModal})=>{
 
     return(
         <div>
+
 <h2>Child Component</h2>
 
-<button onClick={()=>{setShowModal(true)}}>Show Modal</button>
+<button onClick={()=>setShowModal(true)}>Show Modal</button>
 
 {
-    showModal==true&&<div>
+    showModal==true&&(<div>
         <h3>
             Modal Content
         </h3>
         <p>This is modal content.</p>
-    </div>
+    </div>)
 }
         </div>
     )
