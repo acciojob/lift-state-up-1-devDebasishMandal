@@ -6,7 +6,7 @@ const Parent =()=>{
 const [showModal,setShowModal]=useState(false);
 
     return (
-        <div className="Parent">
+        <div className="parent">
       <h1>Parent Component</h1>
       <Child showModal={showModal}setShowModal={setShowModal}/>
         </div>
